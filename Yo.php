@@ -18,6 +18,8 @@ $kuning="\033[1;33m";
 
 error_reporting(0);
 
+
+
 class curl 
 
    { 	var $ch, $agent, $error, $info, $cookiefile, $savecookie;   	 	function curl() { 
@@ -220,7 +222,18 @@ class curl
 
    	 	         	       		   		 	   		 			ob_flush(); 	} 
 
-   	 	         	       		   		 	   		 } echo "$turkis ================  by Jack'n'Jill  =============== \n";
+   	 	         	       		   		 	   		 } echo "$pink __     __        _   _  ____        _   
+
+\ \   / /__  ___| | | || __ )  ___ | |_ 
+
+ \ \ / / _ \/ _ \ | | ||  _ \ / _ \| __|
+
+  \ V /  __/  __/ |_| || |_) | (_) | |_ 
+
+   \_/ \___|\___|\___(_)____/ \___/ \__| \n $pink";
+
+                                        
+                                                         echo "$turkis ================  by Jack'n'Jill  =============== \n";
 
    	 	         	       		   		 	   		   echo "Input Access Token : ";
 
